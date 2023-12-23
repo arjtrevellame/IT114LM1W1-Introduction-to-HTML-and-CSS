@@ -1,30 +1,49 @@
 .center-text {
-    /* TODO 3.1: Align the text center or right */
+    /* DONE 3.1: Align the text center or right */
+    text-align: center;
 
-    /* TODO 3.2: Change the color of the font to your favorite color */
-    
-    /* TODO 3.3: Make the font thicker */
-    
-    /* TODO 3.4: Increase the font size*/
-    
-    /* TODO 3.5: Add an underline to the text */
+    /* DONE 3.2: Change the color of the font to your favorite color */
+    color:orchid;
+
+    /* DONE 3.3: Make the font thicker */
+    font-weight: bold;
+
+    /* DONE 3.4: Increase the font size*/
+    font-size: xx-large;
+
+    /* DONE 3.5: Add an underline to the text */
+    text-decoration: underline;
     
 }
 
 .paragraph-style {
-    /* TODO 3.6: Make the font italic */
+    /* DONE 3.6: Make the font italic */
+    font-style: italic;
+    /* DONE 3.7: Change the font to  */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* DONE 3.8: Increase the space between lines */
+    line-height: 2;
     
-    /* TODO 3.7: Change the font to  */
-    
-    /* TODO 3.8: Increase the space between lines */
 
 }
 
 .box {
-    /* TODO 3.9: Set the width and height of the div. Try out the different units of HTML. px, em, %, in, rem  */
+    /* DONE 3.9: Set the width and height of the div. Try out the different units of HTML. px, em, %, in, rem  */
+    width: 250px;
+    height: 200px;
     
-    /* TODO 3.10: Change the background color fo the div. Can you find a way to make the background color 50% transparent? */
+    /* DONE 3.10: Change the background color fo the div. Can you find a way to make the background color 50% transparent? */
+    background-color: lightpink;
+    /*opacity: 50%*/;
     
-    /* TODO 3.11: Play around with the margin, padding and border. Can you find a way to set the size of specific sides? */
+    /* DONE 3.11: Play around with the margin, padding and border. Can you find a way to set the size of specific sides? */
+    margin: 5px 10px;
+
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border: 8px solid black;
 
 }
